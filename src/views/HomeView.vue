@@ -1,11 +1,9 @@
 <template>
-  <v-container>
-    <v-row>
+  <v-container class="h-100 d-flex justify-center align-center">
+    <v-row >
       <v-col cols="12">
         <h1>{{ currentText }}</h1>
         <h1>{{ currentTime }}</h1>
-      </v-col>
-      <v-col cols="12">
         <v-btn
           variant="text" icon="mdi-play"
           :disabled="status === STATUS.COUNTING || (currentItem.length === 0 && items.length === 0)"
@@ -21,6 +19,7 @@
         ></v-btn>
       </v-col>
     </v-row>
+
   </v-container>
 </template>
 

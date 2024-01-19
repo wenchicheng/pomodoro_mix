@@ -22,6 +22,13 @@ const routes = [
     meta: {
       title: '番茄鐘 | 設定'
     }
+  },
+  {
+    path: '/calendar',
+    component: () => import('@/views/CalendarView.vue'),
+    meta: {
+      title: '番茄鐘 | 日曆'
+    }
   }
 ]
 
