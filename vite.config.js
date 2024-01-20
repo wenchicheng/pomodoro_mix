@@ -51,12 +51,12 @@ export default defineConfig({
       },
       manifest: {
         // 名稱
-        name: '番茄鐘',
-        short_name: '番茄鐘',
+        name: '一葉知鐘',
+        short_name: '一葉知鐘',
         // 工具列顏色
-        theme_color: '#1867C0',
+        theme_color: '#81C784',
         // 啟動畫面的背景色
-        background_color: '#1867C0',
+        background_color: '#C8E6C9',
         // 啟動網址
         start_url: './',
         // PWA 顯示範圍，超出範圍會啟動瀏覽器
@@ -70,8 +70,8 @@ export default defineConfig({
             type: 'image/png'
           },
           {
-            src: './android-chrome-512x512.png',
-            sizes: '512x512',
+            src: './android-chrome-384x384.png',
+            sizes: '384x384',
             type: 'image/png'
           }
         ]

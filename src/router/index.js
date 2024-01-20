@@ -6,28 +6,28 @@ const routes = [
     path: '/',
     component: () => import('@/views/HomeView.vue'),
     meta: {
-      title: '番茄鐘 | 首頁'
+      title: '一葉知鐘 | 首頁'
     }
   },
   {
     path: '/list',
     component: () => import('@/views/ListView.vue'),
     meta: {
-      title: '番茄鐘 | 事項'
+      title: '一葉知鐘 | 事項'
     }
   },
   {
     path: '/settings',
     component: () => import('@/views/SettingsView.vue'),
     meta: {
-      title: '番茄鐘 | 設定'
+      title: '一葉知鐘 | 設定'
     }
   },
   {
     path: '/calendar',
     component: () => import('@/views/CalendarView.vue'),
     meta: {
-      title: '番茄鐘 | 日曆'
+      title: '一葉知鐘 | 日曆'
     }
   }
 ]

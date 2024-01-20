@@ -17,8 +17,8 @@ export default createVuetify({
     defaultTheme: 'light',
     themes: {
       light: {
-        primary: '#E57373',
-        secondary: '#424242',
+        primary: '#81C784',
+        secondary: 'rgba(220, 237, 200, 1)',
         error: '#FF5252',
         info: '#2196F3',
         success: '#CCFF90',

@@ -1,8 +1,20 @@
 <template>
   <v-app>
-    <v-app-bar color="#DCEDC8">
+    <!--navbar 的基底顏色 color="rgba(220, 237, 200, 0.5)" 用 v-slot 插入圖片 -->
+    <v-app-bar
+        image="https://images.unsplash.com/photo-1631561208817-a64a544b55e3?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      >
+        <template v-slot:image>
+          <v-img
+            gradient="to top right, rgba(0, 213, 112, 0.7), rgba(0, 191, 177, 0.9)"
+          ></v-img>
+        </template>
+
       <v-container class="d-flex align-center">
-        <v-app-bar-title class="font-weight-bold">POMODORO</v-app-bar-title>
+        <v-app-bar-title class="font-weight-bold">LEAF TIMER
+          <v-icon icon="mdi-clover">
+          </v-icon>
+        </v-app-bar-title>
         <v-btn prepend-icon="mdi-home" to="/">首頁</v-btn>
         <v-btn prepend-icon="mdi-list-status" to="/list">事項</v-btn>
         <v-btn prepend-icon="mdi-cog" to="/settings">設定</v-btn>
